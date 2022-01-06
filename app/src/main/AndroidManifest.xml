@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asj2021">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_dice"
+        android:label="ASJ2022"
+        android:roundIcon="@drawable/ic_dice"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ASJ2021">
+        <activity android:name=".diceroller"></activity>
+        <activity android:name=".third" />
+        <activity android:name=".second" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
